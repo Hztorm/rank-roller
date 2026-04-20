@@ -107,7 +107,7 @@ The bot assigns ranks based on the **ranks.py** file, the names of your ranks mu
 
 Color is the color of the rank in the roll message.
 
-Keep score in order from 1->...
+keep score in in order
 
 ---
 

@@ -1,9 +1,8 @@
 ## Prerequisites
 
-Before you start, make sure you have the following installed:
+Before you start, make sure you have python installed:
 
 - **Python 3.10+** — [python.org/downloads](https://www.python.org/downloads/)
-- **FFmpeg**
 
 ---
 
@@ -108,7 +107,8 @@ The bot assigns ranks based on the **ranks.py** file, the names of your ranks mu
 
 Color is the color of the rank in the roll message.
 
-Keep score in order from 1->...
+keep score in in order
+
 ---
 
 ## Audio Assets (Optional)
@@ -131,7 +131,8 @@ If you have many it will pick a random one.
 ## MISC
 
 Bot status can be changed in bot.py:
-´´´
+
+```
 @bot.event
 async def on_ready() -> None:
     log.info("Logged in as %s (ID: %s)", bot.user, bot.user.id)
@@ -140,7 +141,7 @@ async def on_ready() -> None:
         status=discord.Status.online,
         activity=discord.Game("!help"),
     )
-´´´
+```
 
 ## Available Commands
 
